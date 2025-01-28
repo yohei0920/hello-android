@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">helloworld</string>
+    <string name="push_btn">Push Button!!</string>
+    <string name="second_push_btn">Second Push Button!!</string>
+    <string name="hello_android">Hello Android!</string>
+</resources>
