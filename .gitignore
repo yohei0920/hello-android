@@ -13,3 +13,21 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# ビルド成果物
+/build/
+*.apk
+*.aar
+*.ap_
+*.dex
+
+# ログファイル
+*.log
+
+# Android Studioの設定
+.idea/
+
+# キャッシュや一時ファイル
+*.tmp
+*.DS_Store
+Thumbs.db
