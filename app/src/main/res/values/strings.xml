@@ -4,4 +4,6 @@
     <string name="second_push_btn">Second Push Button!!</string>
     <string name="hello_android">Hello Android!</string>
     <string name="change_btn">画像を変更</string>
+    <string name="janken">じゃんけん！</string>
+    <string name="gokei">合計</string>
 </resources>

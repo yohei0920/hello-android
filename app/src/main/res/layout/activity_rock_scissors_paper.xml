@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RockScissorsPaper">
+
+    <ImageButton
+        android:id="@+id/choki"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="172dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/gokei"
+        app:layout_constraintEnd_toStartOf="@+id/pa"
+        app:layout_constraintStart_toEndOf="@+id/gu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/choki" />
+
+    <ImageButton
+        android:id="@+id/gu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="27dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/choki"
+        app:layout_constraintEnd_toStartOf="@+id/choki"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/choki"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/gu" />
+
+    <ImageButton
+        android:id="@+id/pa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="31dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/choki"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/choki"
+        app:layout_constraintTop_toTopOf="@+id/choki"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pa" />
+
+    <TextView
+        android:id="@+id/janken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="361dp"
+        android:text="@string/janken"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/choki"
+        app:layout_constraintTop_toBottomOf="@+id/choki" />
+
+    <TextView
+        android:id="@+id/gokei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="293dp"
+        android:text="@string/gokei"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/janken"
+        app:layout_constraintTop_toBottomOf="@+id/choki" />
+</androidx.constraintlayout.widget.ConstraintLayout>
