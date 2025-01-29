@@ -3,4 +3,5 @@
     <string name="push_btn">Push Button!!</string>
     <string name="second_push_btn">Second Push Button!!</string>
     <string name="hello_android">Hello Android!</string>
+    <string name="change_btn">画像を変更</string>
 </resources>
