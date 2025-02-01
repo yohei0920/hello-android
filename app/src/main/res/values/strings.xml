@@ -6,4 +6,10 @@
     <string name="change_btn">画像を変更</string>
     <string name="janken">じゃんけん！</string>
     <string name="gokei">合計</string>
+    <string name="title_activity_web_site_viewer">WebSiteViewer</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="navigation_back">Back</string>
+    <string name="navigation_forward">Forward</string>
 </resources>
